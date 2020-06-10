@@ -19,6 +19,7 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   planeteer_calls.map do |element|
     element.count > 4 ? true : false
+  end
 end
 
 def find_valid_calls(planeteer_calls)
